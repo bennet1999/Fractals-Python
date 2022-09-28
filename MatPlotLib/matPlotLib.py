@@ -2,6 +2,7 @@ import matplotlib as mpl
 from matplotlib import pyplot as plt
 mpl.rcParams['toolbar'] = 'None'
 
+plt.xkcd()
 
 ages_x = [5, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
 
